@@ -4,10 +4,24 @@
 .walrus-showing{
     display: none;
 }
-p{
+.clickable{
     cursor: pointer;
     color: #0088cc;
 }
-p:hover{
+.clickable:hover{
     text-decoration: underline;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+
+}
+.img-fluid{
+    height: 400px;
+    width: 400px;
+}
+#img2{
+    height: 400px;
+    width: 400px;
+    padding-left: 50px;
 }
